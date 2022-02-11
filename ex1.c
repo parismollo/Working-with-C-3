@@ -25,5 +25,6 @@ int main() {
     printf("(avant) a: %d, b: %d\n", *a, *b);
     swap(a, b);
     printf("(apres) a: %d, b: %d\n", *a, *b);
-
+    
+    return EXIT_SUCCESS;
 }
